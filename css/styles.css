@@ -47,10 +47,14 @@ li{
     list-style: none;
 }
 .box{
-    width: 32%;
+    width: 28%;
     background-color: hsl(300, 43%, 22%);
-    border-radius: 5px;
-    height:200px;
+    border-radius: 8px;
+    height:180px;
+    padding: 40px 30px 40px 30px;
+}
+.box p{
+    font-size: 18px;
 }
 .ratings{
     float: right;
@@ -93,4 +97,16 @@ li{
 }
 .text-dark-magenta{
     color: hsl(300, 43%, 22%);
+}
+.box div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.text-pink{
+    color: hsl(333, 80%, 67%);
+}
+.box div p{
+    margin-left: 70px;
+    padding-top: 10px;
 }
