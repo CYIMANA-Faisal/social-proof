@@ -1,0 +1,79 @@
+@import url('https://fonts.google.com/specimen/Spartan');
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 400, 500, 700;
+    font-family: 'Spartan';
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1{
+    width: 50%;
+}
+
+.column2{
+    width: 50%;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+}
+li{
+    margin-right: 10px;
+    list-style: none;
+}
+.box{
+    width: 32.5%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    height: auto;
+}
+.ratings{
+    float: right;
+    padding-left: 40px;
+    background-color: hsl(300, 24%, 96%);
+}
+.mt-0{
+    margin-top: 0px;
+}
+
+.mt-1{
+    margin-top: 20px;
+}
+
+.mt-2{
+    margin-top: 40px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+.ml-2{
+    margin-left: 20px;
+}
+.mr-1{
+    margin-right: 0px;
+}
+.mr-2{
+    margin-right: 20px;
+}
+.mr-3{
+    margin-right: 40px;
+}
+.text-white{
+    color: hsl(0, 0%, 100%);
+}
+.text-dark-magenta{
+    color: hsl(300, 43%, 22%);
+}
